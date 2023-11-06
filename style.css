@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+main{
+    background-color: white
+    height: 400px;
+}
+.Longbar{
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(rgb(57, 57, 57),red,tomato,red,rgb(32, 32, 32));
+    padding-left: 25%;
+}
+.faintbar{
+    width: 90%;
+    height:40px ;
+    background-color: white;
+    opacity: 75%;  
+    border-left: double 15px;
+    box-shadow: 10px;
+}
+.greenLongbar{
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(rgb(57, 57, 57),green,#A7D397,green,rgb(32, 32, 32));
+    padding-left: 25%;
+}
+.greenfaintbar{
+    width: 90%;
+    height:40px ;
+    background-color: white;
+    opacity: 75%;  
+    border-left: double 15px;
+    box-shadow: 10px;
+}
+.blueLongbar{
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(rgb(57, 57, 57),blue,#1B6B93,blue,rgb(32, 32, 32));
+    padding-left: 25%;
+}
+.bluefaintbar{
+    width: 90%;
+    height:40px ;
+    background-color: white;
+    opacity: 75%;  
+    border-left: double 15px;
+    box-shadow: 10px;
+}
